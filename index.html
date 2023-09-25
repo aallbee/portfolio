@@ -39,11 +39,6 @@
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a href="#services" class="nav_link">
-                                <i class="uil uil-briefcase nav_icon"></i> Services
-                            </a>
-                        </li>
-                        <li class="nav_item">
                             <a href="#portfolio" class="nav_link">
                                 <i class="uil uil-scenery nav_icon"></i> Portfolio
                             </a>
@@ -54,14 +49,14 @@
                             </a>
                         </li>
                     </ul>
-                    <i class="uil uil-times nav_close" id="nav-close"></i>
-                </div>
-
-                <div class="nav_btns">
+                    <div class="nav_btns">
                         <div class="nav_toggle" id="nav-toggle">
                             <i class="uil uil-apps"></i>
                         </div>
                 </div>
+                </div>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+                
             </nav>
         </header>
 
@@ -336,7 +331,7 @@
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
-                <h2 class="section_title">My Qualifications</h2>
+                <h2 class="section_title">Qualifications</h2>
                 <span class="section_subtitle">Education and Professional Experience</span>
 
                 <div class="qualification_container container">
@@ -385,7 +380,7 @@
 
                                             <div>
                                                 <span class="qualification_rounder"></span>
-                                                <span class="qualification_line"></span>
+                                                <!-- <span class="qualification_line"></span> -->
                                             </div>
                                         </div>
                                      <!--==================== QUALIFICATION CONTENT 2 ====================-->
@@ -468,41 +463,96 @@
 
                                             <div>
                                                 <span class="qualification_rounder"></span>
-                                                <span class="qualification_line"></span>
+                                                <!-- <span class="qualification_line"></span> -->
                                             </div>
                                         </div>
-
-
     </div>
-
                         </div>
-
                     </div>
                 </div>
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                * Usability Research Methodology Consulting
-                * Usability Evaluation and Testing
-                * Usability Session Moderation
-                * Metadata Standards and Maintenance
             </section>
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
                 
             </section>
-            
+
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-abeatty235@gmail.com | https://www.linkedin.com/in/allison-beatty/
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Drop a Line</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Email Me</h3>
+                                <span class="contact_subtitle">abeatty235@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="uil uil-map-marker contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Location</h3>
+                                <span class="contact_subtitle">Durham, NC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact_form grid">
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                               <label for="" class="contact_label">Name</label>
+                               <input type="text" class="contact_input">
+                            </div>
+                        </div>
+
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                               <label for="" class="contact_label">Email</label>
+                               <input type="email" class="contact_input">
+                            </div>
+                        </div>
+
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                               <label for="" class="contact_label">Message</label>
+                               <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            </div>
+
+                            <div>
+                                <a href="#" class="button button--flex">
+                                    Send Message
+                                    <i class="uil uil-message button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         Allison Beatty, 2023
+         <div class="footer_container container grid">
+            <div>
+                <h1 class="footer_title">Allison</h1>
+                <span class="footer_subtitle">UX Researcher</span>
+            </div>
+
+            <ul class="footer_links">
+                <li>
+                    <a href="#portfolio" class="footer_link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer_link">Contact Me</a>
+                </li>
+            </ul>
+            <p class="footer_copy">&#169; Allison Beatty. All rights reserved.</p>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
