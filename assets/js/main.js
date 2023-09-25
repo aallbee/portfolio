@@ -1,4 +1,4 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+/*==================== MENU SHOW AND MENU HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
@@ -14,7 +14,7 @@ if(navToggle){
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose){
-    navClose.addEventListener('click', () => {
+    navClose.addEventListener('click', () =>{
         navMenu.classList.remove('show-menu')
     })
 }
@@ -29,7 +29,23 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
+const skillsContent = document.getElementsByClassName('skills_content'),
+    skillsHeader = document.querySelectorAll('.skills_header')
 
+function toggleSkills(){
+    let itemClass = this.parentNode.getElementsByClassName
+
+    for (i=0; i < skillsContent.length; i++){
+        skillsContent[i].className = 'skills_content skills_close'
+    }
+    if(itemClass === 'skills_content skills_close'){
+        this.parentNode.className = 'skills_content skills_open'
+    }
+}
+
+skillsHeader.forEach((el) =>{
+    el.addEventListener('click', toggleSkills)
+})
 
 /*==================== QUALIFICATION TABS ====================*/
 
