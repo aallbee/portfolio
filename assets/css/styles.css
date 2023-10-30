@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    --hue-color: 150;
+    --hue-color: 334;
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 21%, 31%);
@@ -282,7 +282,7 @@ blockquote {
 }
 
 .home_blob-img{
-  width: 170px;
+  width: 200px;
 }
 
 .home_data{
@@ -355,7 +355,7 @@ blockquote {
 
 /*==================== ABOUT ====================*/
 .about_img{
-  width: 200px;
+  width: 300px;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
@@ -651,11 +651,6 @@ blockquote {
   font-weight: var(--font-medium);
 }
 
-.contact_subtitle{
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
 .contact_content{
   background-color: var(--input-color);
   border-radius: .5rem;
@@ -665,17 +660,6 @@ blockquote {
 .contact_label{
   font-size: var(--smaller-font-size);
   color: var(--title-color);
-}
-
-.contact_input{
-  width: 100%;
-  background-color: var(--input-color);
-  color: var(--text-color);
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  border: none;
-  outline: none;
-  padding: .25rem .5rem .5rem 0;
 }
 
 /*==================== FOOTER ====================*/
